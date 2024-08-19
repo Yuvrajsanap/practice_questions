@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>UploadServlet</display-name>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>com.example.UploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>Assignment_9</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>HelloTag</display-name>
+    <servlet-name>HelloTag</servlet-name>
+    <servlet-class>com.example.HelloTag</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloTag</servlet-name>
+    <url-pattern>/HelloTag</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TagLibrary</display-name>
+    <servlet-name>TagLibrary</servlet-name>
+    <servlet-class>com.example.TagLibrary</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TagLibrary</servlet-name>
+    <url-pattern>/TagLibrary</url-pattern>
+  </servlet-mapping>
+</web-app>
